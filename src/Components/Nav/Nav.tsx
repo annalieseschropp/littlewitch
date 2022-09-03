@@ -9,7 +9,7 @@ const Nav = () => {
         <div>
           <div className="flex items-center justify-between py-3 md:py-5 md:block">
             <a href="javascript:void(0)">
-              <h2 className="text-xl font-bold text-white">little witch logo</h2>
+              <h2 className="text-xl font-header text-white">logo</h2>
             </a>
             <div className="md:hidden">
               <button className="p-2 text-light-grey rounded-md outline-none focus:border-gray-400 focus:border" onClick={() => setNavbar(!navbar)}>
@@ -29,13 +29,13 @@ const Nav = () => {
         <div>
           <div className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${navbar ? "block" : "hidden"}`}>
             <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
-              <li className="text-light-grey hover:text-white">
+              <li className="text-light-grey hover:text-white font-body">
                   <a href="javascript:void(0)">shop</a>
               </li>
-              <li className="text-light-grey hover:text-white">
+              <li className="text-light-grey hover:text-white font-body">
                   <a href="javascript:void(0)">about</a>
               </li>
-              <li className="text-light-grey hover:text-white">
+              <li className="text-light-grey hover:text-white font-body">
                   <a href="javascript:void(0)">contact</a>
               </li>
             </ul>

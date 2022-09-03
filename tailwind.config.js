@@ -11,6 +11,10 @@ module.exports = {
       'white': '#FFFFFF',
 
     },
+    fontFamily: {
+      'header':['"Georgia"', 'serif'],
+      'body':['"Open Sans"', 'sans-serif'],
+    },
     extend: {},
   },
   plugins: [],
