@@ -16,7 +16,6 @@ module.exports = {
       'header':['"Georgia"', 'serif'],
       'body':['"Open Sans"', 'sans-serif'],
     },
-    backgroundColor: '#212121',
     extend: {},
   },
   plugins: [],
