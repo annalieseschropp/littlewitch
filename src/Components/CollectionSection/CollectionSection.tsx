@@ -11,7 +11,6 @@ const CollectionSection = () => {
         <span className="flex-shrink px-8 text-white text-left font-header text-4xl bg-dark-grey mt-[-1.5rem]">shop</span>
         <div className="basis-5/6 border-t-0 border-light-grey"></div>
       </div>
-      {/* <Collection text="Dice" imageURL='./Assets/Images/test_d20.jpg' /> */}
       <Products/>
     </div>
   );

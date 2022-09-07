@@ -4,32 +4,48 @@ const products = [
       name: 'Test Product 1',
       href: '#',
       price: '$48',
-      imageSrc: '../../Assets/Images/test_d20.JPG',
-      imageAlt: '',
+      imageSrc: "https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg",
+      imageAlt: 'This is a test image',
     },
     {
       id: 2,
       name: 'Test Product 2',
       href: '#',
       price: '$35',
-      imageSrc: '../../Assets/Images/test_d20.JPG',
-      imageAlt: '',
+      imageSrc: "https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg",
+      imageAlt: 'This is a test image',
     },
     {
       id: 3,
       name: 'Test Product 3',
       href: '#',
       price: '$135',
-      imageSrc: '../../Assets/Images/test_d20.JPG',
-      imageAlt: '',
+      imageSrc: "https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg",
+      imageAlt: 'This is a test image',
     },
     {
       id: 4,
       name: 'Test Product 4',
       href: '#',
       price: '$20',
-      imageSrc: '../../Assets/Images/test_d20.JPG',
-      imageAlt: '',
+      imageSrc: "https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg",
+      imageAlt: 'This is a test image',
+    },
+    {
+      id: 4,
+      name: 'Test Product 4',
+      href: '#',
+      price: '$20',
+      imageSrc: "https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg",
+      imageAlt: 'This is a test image',
+    },
+    {
+      id: 4,
+      name: 'Test Product 4',
+      href: '#',
+      price: '$20',
+      imageSrc: "https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg",
+      imageAlt: 'This is a test image',
     },
   ]
 
@@ -49,8 +65,8 @@ const Products = () => {
                   className="h-full w-full object-cover object-center group-hover:opacity-75"
                 />
               </div>
-              <h3 className="mt-4 text-sm text-white">{product.name}</h3>
-              <p className="mt-1 text-lg font-medium text-white">{product.price}</p>
+              <h3 className="mt-4 text-sm font-body text-light-grey">{product.name}</h3>
+              <p className="mt-1 text-lg font-header text-white">{product.price}</p>
             </a>
           ))}
         </div>
