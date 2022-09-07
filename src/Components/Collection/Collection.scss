@@ -1,0 +1,41 @@
+// .hex:before {
+//     content: " ";
+//     width: 0; height: 0;
+//     border-bottom: 30px solid theme('colors.light-grey');;
+//     border-left: 52px solid transparent;
+//     border-right: 52px solid transparent;
+//     position: absolute;
+//     top: -30px;
+// }
+
+// .hex {
+//     margin-top: 30px;
+//     width: 104px;
+//     height: 60px;
+//     background-color: theme('colors.light-grey');
+//     position: relative;
+// }
+
+// .hex:after {
+//     content: "";
+//     width: 0;
+//     position: absolute;
+//     bottom: -30px;
+//     border-top: 30px solid theme('colors.light-grey');;
+//     border-left: 52px solid transparent;
+//     border-right: 52px solid transparent;
+// }
+
+.main {
+  display: flex;
+  --s: 20rem;
+  --m: 2rem;
+}
+
+.container div {
+  width: var(--s);
+  margin: var(--m);
+  height: calc(var(--s) * 1.1547);
+  display: inline-block;
+  clip-path: polygon(0% 25%, 0% 75%, 50% 100%, 100% 75%, 100% 25%, 50% 0%);
+}
